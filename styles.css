@@ -37,6 +37,7 @@ h1,
 h2 {
     font-family: 'Noto Serif', serif;
     font-weight: 600;
+    margin: 0;
 }
 
 h3,
@@ -106,6 +107,21 @@ a {
     flex-wrap: wrap;
 }
 
+.header-meta__item a {
+    color: #000000;
+    transition: 0.2s;
+}
+
+.header-meta__item a:hover {
+    color: #FF9696;
+    transition: 0.2s;
+}
+
+.header-meta__item a:focus {
+    color: #FF9696;
+    transition: 0.2s;
+}
+
 .header-button {
     display: flex;
     flex-direction: column;
@@ -117,5 +133,65 @@ a {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.125;
+    color: #000000;
     border: 1.5px solid #FF9696;
+    transition: 0.2s;
+}
+
+.header-button:hover,
+.header-button:focus {
+    background-color: #FF9696;
+    transition: 0.2s;
+    color: #FFFFFF;
+}
+
+.hero-meeting {
+    width: 50%;
+}
+
+.hero h1 {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    font-size: 58px;
+    line-height: 1.38;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 22px;
+    line-height: 1.115;
+    font-weight: 300;
+    margin-bottom: 57px;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 80px;
+    gap: 10px;
+    width: 371px;
+    height: 82px;
+    font-size: 20px;
+    line-height: 1.115;
+    text-decoration: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #FF9696;
+    transition: 0.2s;
+    border: 2px solid #FF9696;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #000000;
+    background: #FFFFFF;
+    transition: 0.2s;
+}
+
+.social-links__list {
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    max-width: 172px;
 }
