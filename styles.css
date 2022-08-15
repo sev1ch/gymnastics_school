@@ -220,3 +220,47 @@ a {
     top: 160px;
     z-index: 1;
 }
+
+.about-us {
+    display: flex;
+}
+
+.about-us h2 {
+    margin-top: 300px;
+    font-size: 40px;
+    line-height: 1.44;
+    font-weight: 600;
+}
+
+.about-us_photo {
+    margin-top: 48px;
+    z-index: 2;
+}
+
+.vector1 {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -70px;
+    z-index: 3;
+}
+
+.vector-play-first {
+    position: absolute;
+    margin-left: -465px;
+    margin-top: 330px;
+    z-index: 3;
+}
+
+.vector-play-second {
+    position: absolute;
+    margin-left: -440px;
+    margin-top: 350px;
+    z-index: 4;
+}
+
+.vector-play-third {
+    position: absolute;
+    margin-left: -495px;
+    margin-top: 300px;
+    z-index: 1;
+}
