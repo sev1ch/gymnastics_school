@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="165" height="165" viewBox="0 0 165 165">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff6f6;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff9696;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #ff9696;
+      }
+    </style>
+  </defs>
+  <title>play</title>
+  <circle class="cls-1" cx="82.5" cy="82.5" r="50"/>
+  <circle class="cls-2" cx="82.5" cy="82.5" r="81.5"/>
+  <path class="cls-3" d="M70,58.94l-2.83,1.49v43.5L70,105.45,102.58,83.7v-3Zm.8,41.62V63.84L98.3,82.21Z" transform="translate(-0.35 0.3)"/>
+</svg>

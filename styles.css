@@ -266,25 +266,11 @@ a {
     z-index: 3;
 }
 
-.vector-play-first {
-    position: absolute;
-    margin-top: 320px;
-    margin-left: -480px;
-    z-index: 3;
-}
-
-.vector-play-second {
-    position: absolute;
-    margin-left: -455px;
-    margin-top: 340px;
-    z-index: 4;
-}
-
-.vector-play-third {
+.play {
     position: absolute;
     margin-top: 290px;
-    margin-left: -510px;
-    z-index: 1;
+    margin-left: -520px;
+    z-index: 3;
 }
 
 .content-text {
