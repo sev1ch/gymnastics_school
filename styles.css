@@ -69,6 +69,8 @@ a {
     width: 65.6%;
 }
 
+/* HEADER */
+
 .header {
     padding-top: 20px;
     background-color: #FFFFFF;
@@ -150,8 +152,8 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px 32px;
-    width: 226px;
-    height: 58px;
+    width: 17%;
+    height: 50px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.125;
@@ -167,6 +169,8 @@ a {
     transition: 0.2s;
     color: #FFFFFF;
 }
+
+/* HERO */
 
 .hero-meeting {
     width: 50%;
@@ -194,8 +198,8 @@ a {
     padding: 30px;
     margin-bottom: 80px;
     gap: 10px;
-    width: 371px;
-    height: 82px;
+    width: 320px;
+    height: 80px;
     font-size: 20px;
     line-height: 1.115;
     text-decoration: none;
@@ -239,16 +243,10 @@ a {
     z-index: 1;
 }
 
-@keyframes fade {
-    0%    { opacity: 0; }
-    20%   { opacity: 1; }
-    80%   { opacity: 0; }
-    100%  { opacity: 1; }
-  }
+/* ABOUT US */
 
 .about-us {
     display: flex;
-    animation: fade 2s;
 }
 
 .about-us h2 {
