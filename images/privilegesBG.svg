@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="400.5" height="426.64" viewBox="0 0 400.5 426.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff6f6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #aaa;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #ff9696;
+      }
+    </style>
+  </defs>
+  <title>privilegesBG</title>
+  <rect class="cls-1" x="59.5" y="71.64" width="341" height="355" rx="1"/>
+  <rect class="cls-2" x="0.5" y="33.64" width="384" height="375"/>
+  <circle class="cls-3" cx="199.93" cy="34" r="34"/>
+</svg>
