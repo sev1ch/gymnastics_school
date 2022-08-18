@@ -33,7 +33,9 @@ button {
     margin: 0;
 }
 
-h1 {
+h1,
+h3,
+h4 {
     font-family: 'Noto Serif', serif;
     font-weight: 700;
     margin: 0;
@@ -47,8 +49,7 @@ h2 {
     line-height: 1.44; 
 }
 
-h3,
-h4,
+
 p,
 li {
     margin: 0;
@@ -368,11 +369,19 @@ a {
     margin-top: 70px;
 }
 
+.ourteam .vector {
+    margin-top: 50px;
+}
+
 .ourteam-item .pic {
     margin-top: -300px;
     margin-left: 30px;
 }
 
+.ourteam-item .pic.even {
+    margin-top: -300px;
+    margin-left: 650px;
+}
 
 .ourteam-item:nth-child(2n) {
     margin-left: 150px;
