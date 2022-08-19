@@ -173,17 +173,57 @@ a {
 
 /* HERO */
 
+@keyframes slidein-hero {
+    from {
+      margin-left: -100%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 0%;
+      opacity: 1;
+    }
+}
+
+@keyframes slidein-hero_bg {
+    from {
+      margin-left: 100%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 36%;
+      opacity: 1;
+    }
+}
+
+@keyframes slidein-hero_photo {
+    from {
+      margin-left: 100%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 24%;
+      opacity: 1;
+    }
+}
+
+
 .hero-meeting {
     width: 50%;
     z-index: 2;
 }
 
 .hero h1 {
+    width: 100%;
     margin-top: 130px;
     margin-bottom: 40px;
     font-size: 58px;
     line-height: 1.38;
     font-weight: 700;
+    animation: slidein-hero;
+    animation-duration: 2s;
 }
 
 .hero p {
@@ -191,6 +231,8 @@ a {
     line-height: 1.115;
     font-weight: 300;
     margin-bottom: 57px;
+    animation: slidein-hero;
+    animation-duration: 2s;
 }
 
 .hero-button {
@@ -209,6 +251,8 @@ a {
     background: #FF9696;
     transition: 0.2s;
     border: 2px solid #FF9696;
+    animation: slidein-hero;
+    animation-duration: 2s;
 }
 
 .hero-button:hover,
@@ -223,6 +267,8 @@ a {
     -webkit-box-pack: justify;
             justify-content: space-between;
     max-width: 172px;
+    animation: slidein-hero;
+    animation-duration: 2s;
 }
 
 .hero-background {
@@ -234,6 +280,9 @@ a {
     background: #FFF6F6;
     border-radius: 0px 0px 150px 150px;
     z-index: 0;
+    animation: slidein-hero_bg;
+    animation-duration: 2s;
+
 }
 
 .main-photo {
@@ -242,6 +291,8 @@ a {
     margin-left: 24%;
     top: 160px;
     z-index: 1;
+    animation: slidein-hero_photo;
+    animation-duration: 2s;
 }
 
 /* ABOUT US */
@@ -363,19 +414,21 @@ a {
 
 .ourteam-list {
     display: flex;
-    flex-wrap: wrap;
+    height: 1792px;
     margin: 0 auto;
-    gap: 90px;
-    align-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
 }
+
+
+.ourteam-item:nth-child(2n) {
+    margin-left: 150px;
+}
+
 
 .ourteam .vector {
     position: relative;
     z-index: 1;
-}
-
-.ourteam-item {
-    margin-top: 70px;
 }
 
 .ourteam-item .pic {
@@ -386,11 +439,6 @@ a {
 .ourteam-item .pic.even {
     margin-top: -400px;
     margin-left: 670px;
-}
-
-
-.ourteam-item:nth-child(2n) {
-    margin-left: 150px;
 }
 
 .ourteam .text {
