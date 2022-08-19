@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="852" height="850" viewBox="0 0 852 850">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fcebeb;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ff9696;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>regVector</title>
+  <rect class="cls-1" x="55" y="46.86" width="742" height="753.27"/>
+  <g>
+    <rect class="cls-2" x="720.5" y="1.5" width="89" height="88"/>
+    <rect class="cls-2" x="761.5" y="35.5" width="89" height="88"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="1.5" y="726.5" width="89" height="88"/>
+    <rect class="cls-2" x="42.5" y="760.5" width="89" height="88"/>
+  </g>
+</svg>

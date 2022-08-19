@@ -463,3 +463,20 @@ a {
     font-size: 30px;
     font-weight: 600;
 }
+
+/* Registration */
+
+.registration .photo{
+    width: 35%;
+    position: absolute;
+    margin-top: 240px;
+    z-index: 1;
+}
+
+.registration .vector {
+    width: 45%;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 27%;
+    z-index: 2;
+}
