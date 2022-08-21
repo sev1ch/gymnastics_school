@@ -384,6 +384,13 @@ a {
     font-weight: 400;
 }
 
+@media screen and (max-width: 699px) {
+    .aboutus {
+        flex-wrap: wrap;
+    }
+
+}
+
 /* What makes us the best? */
 
 .privileges h2 {
@@ -410,7 +417,6 @@ a {
 }
 
 .privileges-item img {
-    width: 100%;
     z-index: 1;
 }
 
