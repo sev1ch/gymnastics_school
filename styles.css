@@ -526,10 +526,18 @@ a {
     z-index: 2;
 }
 
-.registration h3,
-.registration p {
+.registration h3 {
     position: absolute;
     z-index: 3;
+    margin-top: 300px;
+    margin-left: 675px;
+}
+
+.reg-field {
+    justify-content: center;
+}
+
+.registration p {
     margin-left: 675px;
 }
 
@@ -537,10 +545,10 @@ a {
     display: flex;
     position: relative;
     width: 400px;
-    margin-top: 250px;
-    margin-left: 620px;
+    margin-top: 350px;
     z-index: 3;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .registration input {
