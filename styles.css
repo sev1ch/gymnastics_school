@@ -240,9 +240,8 @@ a {
     justify-content: center;
     padding: 30px;
     margin-bottom: 80px;
-    gap: 10px;
-    width: 320px;
-    height: 80px;
+    width: 60%;
+    height: 15%;
     font-size: 20px;
     line-height: 1.115;
     text-decoration: none;
@@ -269,6 +268,42 @@ a {
     max-width: 172px;
     animation: slidein-hero;
     animation-duration: 2s;
+}
+
+@media screen and (max-width: 699px){
+    .hero-background {
+        display: none;
+    }
+
+    .main-photo {
+        display: none;
+    }
+
+    .hero-button {
+        width: 100%;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .hero-meeting {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .header-button {
+        width: 50%;
+        font-size: 14px;
+        padding: 16px 20px;
+    }
 }
 
 .hero-background {
