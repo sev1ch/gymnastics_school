@@ -256,7 +256,7 @@ a {
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #000000;
+    color: #FF9696;
     background: #FFFFFF;
     transition: 0.2s;
 }
@@ -519,39 +519,53 @@ a {
 }
 
 .registration .vector {
-    width: 45%;
+    width: 200%;
     position: absolute;
-    margin-top: 4%;
-    margin-left: 27%;
-    z-index: 2;
+    margin-top: 10%;
+    margin-left: 8%;
+    z-index: 1;
 }
 
 .registration h3 {
     position: absolute;
+    width: 100%;
+    margin-top: 40%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.44;
+    z-index: 2;
+}
+
+.registration p {
+    position: absolute;
+    margin-top: 75%;
+    font-size: 22px;
+    line-height: 1.4;
+    text-align: center;
     z-index: 3;
-    margin-top: 300px;
-    margin-left: 675px;
 }
 
 .reg-field {
     justify-content: center;
 }
 
-.registration p {
-    margin-left: 675px;
-}
-
 .form-content {
     display: flex;
     position: relative;
     width: 400px;
-    margin-top: 350px;
-    z-index: 3;
+    margin-left: 620px;
+    z-index: 2;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.form-content form {
+    margin-top: 80%;
+}
+
 .registration input {
+    position: relative;
     padding: 20px 70px 20px 20px;
     width: 400px;
     height: 66px;
@@ -559,4 +573,27 @@ a {
     font-family: 'Comfortaa', cursive;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.reg-button {
+    position: relative;
+    margin-top: 36px;
+    padding: 20px 32px;
+    width: 401px;
+    height: 65px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF9696;
+    border: 2px solid #FF9696;
+    z-index: 2;
+}
+
+.reg-button:hover,
+.reg-button:focus {
+    background-color: #FFFFFF;
+    transition: 0.2s;
+    color: #FF9696;
 }
