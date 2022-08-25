@@ -605,14 +605,31 @@ input[type="checkbox"] {
     width: 20px;
 }
 
-input[type="checkbox"]:checked {
-    background-color: #FF9696;
-}
-
 .registration label {
     position: relative;
     margin-top: 19px;
     margin-left: 5px;
     color: #000000;
     z-index: 2;
+}
+
+.schedule h2 {
+    margin-top: 30%;
+}
+
+.schedule-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.schedule-item img{
+    width: 600px;
+}
+
+@media screen and (max-width: 1919px){
+    .schedule-list {
+        justify-content: center;
+        gap: 40px;
+    }
 }
