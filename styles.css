@@ -632,10 +632,46 @@ input[type="checkbox"] {
     margin-top: 105px;
 }
 
-.schedule h3 {
+.schedule .title {
     position: relative;
     z-index: 2;
-    margin-top: -75%;
+    margin-top: -80%;
+    margin-left: 15%;
     font-weight: 400;
     font-size: 22px;
+}
+
+.schedule .title.right {
+    margin-top: -73%;
+    margin-left: 10%;
+}
+
+.schedule .text-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1799px){
+    .schedule p{
+        font-size: 12px;
+    }
+}
+
+.schedule .text-list.right {
+    margin-left: 10%;
+}
+
+.schedule .text-item {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.schedule .text-item {
+    margin-top: 7%;
+}
+
+.schedule .text-item:first-child {
+    margin-top: 6%;
 }
