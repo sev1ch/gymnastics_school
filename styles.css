@@ -620,16 +620,22 @@ input[type="checkbox"] {
 .schedule-list {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .schedule-item img{
-    width: 600px;
+    width: 95%;
+    z-index: 1;
 }
 
-@media screen and (max-width: 1919px){
-    .schedule-list {
-        justify-content: center;
-        gap: 40px;
-    }
+.schedule-item:first-child {
+    margin-top: 105px;
+}
+
+.schedule h3 {
+    position: relative;
+    z-index: 2;
+    margin-top: -75%;
+    font-weight: 400;
+    font-size: 22px;
 }
