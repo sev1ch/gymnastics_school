@@ -689,3 +689,13 @@ input[type="checkbox"] {
     margin-top: 240px;
 }
 
+.gallery .group {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.gallery .child-group {
+    width: 288px;
+}
