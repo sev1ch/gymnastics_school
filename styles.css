@@ -624,6 +624,7 @@ input[type="checkbox"] {
 }
 
 .schedule-item img{
+    position: relative;
     width: 95%;
     z-index: 1;
 }
@@ -647,9 +648,11 @@ input[type="checkbox"] {
 }
 
 .schedule .text-list {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin-left: 20%;
+    z-index: 3;
 }
 
 @media screen and (max-width: 1799px){
@@ -670,4 +673,12 @@ input[type="checkbox"] {
 
 .schedule .text-item {
     margin-top: 6%;
+}
+
+.schedule-background {
+    position: relative;
+    width: 90%;
+    margin-top: -10%;
+    margin-left: 5%;
+    z-index: 0;
 }
