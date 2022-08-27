@@ -682,3 +682,10 @@ input[type="checkbox"] {
     margin-left: 5%;
     z-index: 0;
 }
+
+/* GALLERY */
+
+.gallery h2 {
+    margin-top: 240px;
+}
+
