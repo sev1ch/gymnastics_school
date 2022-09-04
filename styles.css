@@ -717,11 +717,41 @@ input[type="checkbox"] {
 
 /* QUESTIONS */
 
+.questions h2 {
+    margin-top: 200px;
+}
+
+.questions h3 {
+    font-size: 22px;
+}
+
 .questions-list {
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .questions-item {
-    width: 500px;
+    width: 30%;
+    margin-bottom: 70px;
+}
+
+.questions-item p {
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+.questions-item .link {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 24px;
+}
+
+.questions-item a {
+    color: #000000;   
+}
+
+.questions-item img {
+    margin-left: 13px;
 }
