@@ -716,3 +716,12 @@ input[type="checkbox"] {
 }
 
 /* QUESTIONS */
+
+.questions-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.questions-item {
+    width: 500px;
+}
